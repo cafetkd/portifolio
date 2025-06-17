@@ -1,89 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Portifolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+    <title>Flash Cards</title>
 </head>
-
 <body>
-   <header>
-    <div class="header-content">
-    <img src="IMG/japão.jpg" alt="Foto de perfil" class="profile-img">
-    <h1> Gustavo </h1>
-    <p>Desenvolvedor Web & Designer UX/UI</p>  
-     </div>
-        </header>
+    <main>
+         <section id="container">
+             <article class= "cartao">
+                 <div class= "cartao__conteudo">
+                    <h3>Programação</h3>
+                    <div class= "cartao__conteudo__pergunta">
+                     <p>O que é JavaScript</p>
+                    </div>
 
-           <nav>
-              <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-         </nav>
+                     <div class= "cartao__conteudo__resposta">
+                        <p>O JavaScript é uma linguagem de programação</p>
+                    </div>
+                    </div>
+             </article>
 
-         <!--segunda parte do site-->
+             <article class= "cartao">
+                <div class= "cartao__conteudo">
+                   <h3>Programação</h3>
+                   <div class= "cartao__conteudo__pergunta">
+                    <p>O que é CSS</p>
+                   </div>
 
-         <section id="sobre">
-            <h2>Sobre Mim</h2>
-            <div class="about content">
-           <div class="about text">
-            <p>Olá eu sou Gustavo, um desenvolvedor web apaixonado por criar experiências digitais incriveis. Com mais de 5 anos de experiência no mercado, já trabalhei com diversas tecnologias e teamworks.</p>
-            <br>
-            <p>Quando não estou codando, você pode me encontrar lendo um bom livro, explorando a natureza ou experimentando novas receitas na cozinha</p>
-            </div>
-            </div>
-         </section>
-         <section id="projetos">
-         <h2>Meus Projetos</h2>
-         <div class="projects-grid">
-             <div class="project-card">
-         <img src="IMG/e-commerce.jpg" alt="proketo 1" class="project-img">
-             <div class="project-info">
-              <h3>E-commerce orgânico</h3>
-             <p>Plataforma de e-commerce para produtos para produtos orgânicos com sistema de pedidos integrado.</p>
-             
-             </div>
-             </div>
+                    <div class= "cartao__conteudo__resposta">
+                       <p>O CSS é uma linguagem de marcação</p>
+                   </div>
+                   </div>
+            </article>
 
-         <img src="IMG/turismo.jpg" alt="Projeto 2" class="project-img">
-         <div class="project-info">
-         <h3>Aplicativo de Turismo</h3>
-         <p>Aplicativo mobile para descobrir pontos turísticos com realidade aumentada e guia personalizado.</p>
-         </div>
-         </div>
-         <div class="project-card">
-         <img src="IMG/blog.jpg" alt="Projeto 3" class="project-img">
-         <div class="project-info">
-         <h3>Blog de Tecnologia</h3>
-         <p>Blog moderno com sistema de categorias, busca avançada e integração com redes sociais.</p>
-         </div>
-         </div>
-         </div>
-         </section>
+            <article class= "cartao">
+                <div class= "cartao__conteudo">
+                   <h3>Geografia</h3>
+                   <div class= "cartao__conteudo__pergunta">
+                    <p>Qual é a capital do Paraná</p>
+                   </div>
 
+                    <div class= "cartao__conteudo__resposta">
+                       <p>A capital do Paraná é Curitiba</p>
+                   </div>
+                   </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Projeto desenvoldio por Tiago Matias - sem fins lucrativos</p>
+    </footer>
 </body>
 </html>
- 
-<section id="contato">
-  <h2>Entre em contato</h2>
-  <div class="contactinfo">
-   <p>Estou disponivel para novos projetos e opurtunidades. Vamos conversar!</p>
-   <p>Email: <a href="gustavo.suono@escola.pr.gov.br">gustavosuono@escola.pr.gov.br</a></p>
-   <p>Telefone: (43) 98765-4321</p>
-
-  <div class="social-links">
-<a href="#" aria-label="LinkedIn">in</a>
-<a href="#" aria-label="Github">gh</a>
-<a href="#" aria-label="Twitter">tw</a>
-<a href="#" aria-label="Instagram">ig</a>
-  </div>
-  </div>
-</section>
-
-<footer>
-    <p>&copy; 2023 Gustavo Suono. Todos os direitos reservados</p>
-</footer>
